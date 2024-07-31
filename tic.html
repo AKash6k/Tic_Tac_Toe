@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="tic.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <h1 class="logo">Spotify</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Library</a></li>
+            </ul>
+            <form class="search-form">
+                <input type="text" placeholder="Search">
+                <button type="submit">Search</button>
+            </form>
+        </nav>
+        
+        <!-- Music Player -->
+        <div class="music-player">
+            <div class="current-song">
+                <h2>Now Playing: Song Name</h2>
+                <audio controls autoplay>
+                    <source src="song.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+
+        <!-- Song List -->
+        <div class="song-list">
+            <h2>Songs</h2>
+            <ul>
+                <li>Song 1</li>
+                <li>Song 2</li>
+                <li>Song 3</li>
+                <!-- Add more songs as needed -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
